@@ -9,7 +9,7 @@
 <section class="boxes" id="our-history">
     <div class="container">
         <h2>Our History</h2>
-        <p>Chinese Southern Airlines has a rich history of providing exceptional service to its passengers. Founded in [Year], we have grown to become one of the leading airlines in the region, known for our commitment to safety, comfort, and customer satisfaction.</p>
+        <p>Chinese Southern Airlines has a rich history of providing exceptional service to its passengers. Founded in 1988, we have grown to become one of the leading airlines in the region, known for our commitment to safety, comfort, and customer satisfaction.</p>
     </div>
 </section>
 
@@ -20,4 +20,10 @@
     </div>
 </section>
 
-<?= $this->endSection('content') ?>
+<section class="boxes" id="about-image"></section>
+    <div class="container">
+        <img src="assets/images/Crew.jpg" alt="About Us Image" style="opacity: 0.5; width: 100%; display: block;">
+    </div>
+</section>
+
+<?= $this->endSection('content') ?></section>
